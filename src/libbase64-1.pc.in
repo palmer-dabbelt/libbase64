@@ -7,4 +7,5 @@ Name: @PACKAGE_NAME@
 Description: OpenBSD base64 functions
 URL: @PACKAGE_URL@
 Version: @PACKAGE_VERSION@
+Cflags: -I${includedir}
 Libs: -L${libdir} -Wl,-rpath,${libdir} -lbase64
